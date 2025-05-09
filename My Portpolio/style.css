@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --PRI-COLOUR:orangered;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    letter-spacing: 3px;
+    background-color: hsl(0, 0%, 0%);
+    color: orangered;
+    width:99vw;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+}
+.logo{
+    font-size: 1.6rem;
+    margin-right: 5rem;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-left: 4rem;
+    font-weight: 700;
+    color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+ul li a:hover{
+    transform: scale(1.1);
+    color: var(--PRI-COLOUR);
+}
+.main{
+    width: 520px;
+    margin: 4rem;
+    margin-top: 0;
+    padding:3rem ;
+    display: flex;
+    max-height: 100vh;
+}
+.name{
+    width: 100%;
+    height: auto;
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+.role{
+    width: 600px;
+    height: auto;
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+}
+.info{
+    margin-right: 5rem;
+}
+.campus{
+    width: 100%;
+    height: auto;
+    font-size: 3.2rem;
+    margin-top: 1rem;
+}
+.heading-1{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+.my{
+    margin-left: 2rem;
+    width: 340px;
+    height: auto;
+    border-radius: 50%;
+    border: 10px double white;
+}
+.p1{
+    height: 520px;
+    margin: 1.5rem;
+    display: flex;
+    gap: 3rem;
+}
+.p1-h{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.p1-p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.p2{
+    height: 520px;
+    margin: 1.5rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: row-reverse;
+}
+.p2-h{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.p2-p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.p3{
+    height: 520px;
+    margin: 1.5rem;
+    display: flex;
+    gap: 3rem;
+}
+.p3-h{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.p3-p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+p{
+    color: aliceblue;
+}
